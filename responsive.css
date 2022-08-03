@@ -1,0 +1,104 @@
+@media only screen and (max-width: 1368px) {
+    .headerLogo img {
+        width: 120px;
+       
+    }
+    .headerContent h1 {
+        font-size: 35px;
+        color: #ffffff;
+        
+        margin-top: 35px;
+        
+    }
+
+    .headerLogoTwo img {
+        width: 80px;
+        margin-top: 20px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .fromBlock.form-group.d-sm-flex.mb-2 {
+        display: block !important;
+    }
+    .fromBlock.form-group.d-sm-flex.mb-2 .formMargin{
+        margin: 8px 0;
+    }
+    
+    .headerLogo img {
+        width: 80px;
+        margin-top: 20px;
+    }
+    .headerContent h1 {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+
+    .headerLogoTwo img {
+        width: 50px;
+        margin-top: 10px;
+      
+    }
+
+    .formText h1 {
+       
+        font-size: 35px;
+        
+    }
+
+    .formText p {
+        font-size: 20px;
+        line-height: 5px;
+        
+        margin-bottom: 20px;
+    }
+
+    .form-control, .form-select {
+        
+        padding: 5px 15px;
+    }
+    .btn {
+        
+        padding: 10px 20px;
+        
+        font-size: 18px;
+    }
+    .overflowTop {
+        margin-top: -250px;
+        padding: 25px 20px;
+    }
+    .footerSection .footerText {
+    
+        width: 90%;
+    }
+  
+   
+}
+
+@media only screen and (max-width: 468px){
+    .overflowTop {
+        margin-top: -550px;
+        padding: 25px 20px;
+    }
+    .headerContent.headerContentTwo.mt-3 {
+      
+        padding: 0 8px;
+    }
+    .headerSection {
+        background-position: initial;
+        background-size: initial;
+    }
+    
+}
+
+@media only screen and (min-width: 768px){
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 65%;
+    }
+    .col-xl-6 {
+        width: 60%;
+    }
+}
