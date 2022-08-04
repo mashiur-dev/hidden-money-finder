@@ -12,7 +12,7 @@
 
 .headerSection{
     min-height: 100vh;
-    background-image: url("./img/bg-header-desktop.jpg");
+    background-image: url("../img/bg-header-desktop-v1.1.jpg");
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -28,13 +28,19 @@
 
 .headerContent h1 {
     font-size: 55px;
-    color: #ffffff;
+    color: #000;
     line-height: 1;
     text-transform: uppercase;
     margin-top: 45px;
     font-weight: bold;
 }
-
+.headerContent h1 span{
+    color: #018D3F;  
+}
+section.footerSection.text-center a {
+    margin-right: 5px;
+    margin-left: 5px;
+}
 .form-control,
 .form-select  {
     border: 1px solid #ced4da;
