@@ -1,3 +1,15 @@
+
+
+@media only screen and (min-width: 768px) {
+    .form-group.sideBySide {
+            display: flex;
+    
+    }
+    .form-group.sideBySide>*:first-child {
+        margin-right: 10px;
+    }
+
+}
 @media only screen and (max-width: 1368px) {
     .headerLogo img {
         width: 120px;
@@ -13,13 +25,15 @@
 
     .headerLogoTwo img {
         width: 80px;
-        margin-top: 20px;
-        
+        margin-top: 6px;
     }
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
+    .formWrapper {
+        margin-top: 25px;
+    }
     .form-group.d-flex.mb-3.fromBlock,
     select.form-select.mb-3  {
         margin-bottom: 10px !important;
@@ -47,7 +61,7 @@
     }
 
     .headerLogoTwo img {
-        width: 50px;
+        width: 80px;
         margin-top: 10px;
       
     }
@@ -100,7 +114,7 @@
         margin-bottom: 25px;
     }
     .headerLogo img {
-        width: 60px;
+        width: 80px;
         margin-top: 15px;
     }
     .headerContent h1 {
@@ -140,8 +154,10 @@
         padding: 0 8px;
     }
     .headerSection {
-        background-position: initial;
-        background-size: initial;
+        background-position: 0 -25px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-image: url(../img/bg-header-mobile-v1.1.jpg);
     }
     
 }
