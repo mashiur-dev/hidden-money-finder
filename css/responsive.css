@@ -26,9 +26,6 @@
         margin-top: 5px;
     }
 
-    .overflowTop {
-    }
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -66,8 +63,7 @@
     }
 
     .formText h1 {
-       
-        font-size: 35px;
+        font-size: 30px;
         
     }
 
@@ -150,9 +146,10 @@
       
         padding: 0 8px;
     }
-    .headerSection {
-        background-position: 0 -50px;
-        background-size: 100%;
+
+    #hero-bg {
+        background-position: 0 -20px;
+        background-size: cover;
         background-repeat: no-repeat;
         background-image: url(../img/bg-header-mobile-v1.1.jpg);
     }
