@@ -27,7 +27,6 @@
     }
 
     .overflowTop {
-        margin-top: -335px;
     }
 
 }
@@ -90,7 +89,6 @@
         font-size: 18px;
     }
     .overflowTop {
-        margin-top: -250px;
         padding: 25px 20px;
     }
     .footerSection .footerText {
@@ -119,15 +117,14 @@
     }
     .headerContent h1 {
         font-size: 18px;
-        margin-top: 20px;
+        margin-top: 15px;
         line-height: 22px;
     }
     .headerLogoTwo img {
         width: 35px;
-        margin-top: 5px;
+        margin-top: 0px;
     }
     .overflowTop {
-        margin-top: -575px;
         padding: 15px 15px;
     }
     .formText h1 {
@@ -154,7 +151,7 @@
         padding: 0 8px;
     }
     .headerSection {
-        background-position: 0 -25px;
+        background-position: 0 -50px;
         background-size: 100%;
         background-repeat: no-repeat;
         background-image: url(../img/bg-header-mobile-v1.1.jpg);

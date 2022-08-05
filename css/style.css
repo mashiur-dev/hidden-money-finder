@@ -10,15 +10,20 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.headerSection{
+#hero-bg {
     min-height: 100vh;
     background-image: url("../img/bg-header-desktop-v1.1.jpg");
     width: 100%;
     background-position: center;
     background-size: cover;
-    position: relative;
-    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 
+.headerSection{
+    text-align: center;
 }
 
 .headerLogo img {
@@ -64,9 +69,6 @@ margin-bottom: 50px;
 
 .overflowTop {
     border: 8px solid #018D3F;
-    margin-top: -425px;
-    z-index: 9999;
-    position: relative;
     background: #fff;
     padding: 30px 40px;
     border-radius: 30px;
@@ -89,8 +91,8 @@ margin-bottom: 50px;
     width: 60px;
     margin-top: 5px;
     object-fit: fill;
+    margin-bottom: 10px;
 }
-
 select.form-control {
     height: 49px;
     width: 166px;
