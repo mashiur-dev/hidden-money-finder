@@ -16,9 +16,10 @@
     }
     
     .headerContent h1 {
-        font-size: 28px;
+        font-size: 18px;
         color: #000;
-        margin-top: 20px;
+        margin-top: 10px;
+        line-height: 20px;
     }
 
     .headerLogoTwo img {
